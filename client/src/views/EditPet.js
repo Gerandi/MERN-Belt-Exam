@@ -38,7 +38,7 @@ const EditPet = () => {
                       initTricks={pet.tricks}
                       initLikes={pet.likes}
                       errors={errors}
-                      icon={<i></i>}
+                      icon={<i class="bi bi-pencil-square"></i>}
                       btn={"Edit Pet"}
                   /><br/>
                 </div>

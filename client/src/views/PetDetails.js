@@ -56,7 +56,7 @@ const PetDetails = () => {
         </main>
         <footer className="card-footer d-flex justify-content-center"> <br/>
             <LikeButton />
-        </footer>
+        </footer><br/>
         </div>
     </div>
   );

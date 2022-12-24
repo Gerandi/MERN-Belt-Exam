@@ -30,7 +30,7 @@ const LikeButton = () => {
     return (
         <div id="like-btn" className="d-flex align-items-center">
             <button className="btn btn-success flex-grow-2" id="btn" onClick={addLike} >
-            <i class="bi bi-hand-thumbs-up"></i>Like {pet.name}
+            <i class="bi bi-hand-thumbs-up"></i> Like {pet.name}
             </button> &nbsp;
             <span >Like(s): {pet.likes}</span>
         </div>

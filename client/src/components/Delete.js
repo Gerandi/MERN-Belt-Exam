@@ -14,7 +14,7 @@ const DeleteButton = ({ id, name }) => {
       .catch(err => console.log(err))
   }
   return (
-    <button className="btn btn-danger" onClick={e => removeFromDom(id)}>Adopt {name}</button>
+    <button className="btn btn-danger" onClick={e => removeFromDom(id)}><i class="bi bi-house-add-fill"></i> Adopt {name}</button>
   )
 }
 
